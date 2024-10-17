@@ -1,5 +1,10 @@
-faker
-fastapi
-uvicorn
-fastapi_pagination
-pytest
+# base librairies
+faker==30.3
+fastapi==0.115.2
+uvicorn==0.31.1
+fastapi_pagination==0.12.31
+pytest==8.3.3
+# additional librairies for data pipeline
+requests==2.32.3
+schedule==1.2.2
+sqlalchemy==2.0.35
